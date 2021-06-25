@@ -1,0 +1,92 @@
+.window-state{
+    display: inline-block;
+    position: absolute;
+    right: 8px;
+ 
+ }
+
+.window-header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+content {
+    display: flex;
+    -ms-flex-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+#name{
+    font-weight: bolder;
+}
+
+.me_pos{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+}
+.me_school {
+    font-weight: bolder;
+}
+
+.me_diploma {
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.panel {
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-left: 90px;
+}
+
+.avatar {
+    min-width: 150px;
+    min-height: 150px;
+    margin-right: 10px;
+}
+
+.infos {
+    margin-bottom: 15px;
+}
+
+.hobbies {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.educ1{
+    margin-bottom: 15px;
+}
+
+.educ2{
+    margin-bottom: 15px;
+}
+
+.hobby {
+    margin-right: 0.5%;
+}
+
+.hobby_disc{
+ color: red;
+}
+.hobbiesFieldSet{
+    margin-top: 15px !important;
+}
+
+.hobbyIco {
+    font-size: 3em;
+}
+.button {
+    margin-right: -6px;
+    margin-top: 1px;
+}
