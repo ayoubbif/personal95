@@ -164,8 +164,8 @@ const NavBar = () => {
                             }
                 
                         </div>
-                        <Cutout style={{ width: '90px', height: '35px' }}>
-                            <Moment format="hh:mm:ss" style={{position: 'relative', display: 'inline-block'}}></Moment>
+                        <Cutout style={{ width: '150px', height: '40px' }}>
+                            <Moment format="hh:mm:ss" style={{paddingLeft: '25px', display: 'inline-block'}}></Moment>
                         </Cutout>
             </Fragment>
             

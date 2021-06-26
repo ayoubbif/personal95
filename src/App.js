@@ -95,10 +95,10 @@ function App() {
             <nav>
             <AppBar style={{position: "fixed",
                         bottom: "0px",
-                        top: "94%",
+                        top: "93.5%",
                         margin: "0px",
                         padding: "0px",
-                        minHeight:"40px"}}>
+                        minHeight:"60px"}}>
                     <Toolbar style={{justifyContent: 'space-between'}}>
                       <NavBar>
                         <AboutModalButton/>
